@@ -1,59 +1,72 @@
+# Blockchain-Based Notary System
 
-![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
+A decentralized notary platform for document verification and notarization using blockchain technology. Built with Next.js (TypeScript) for the frontend, Solidity for the smart contracts, and Thirdweb for smart contract deployment and management. The project is deployed on Vercel and tested on the Sepolia testnet.
 
-# thirdweb-next-starter
+### 📝 Features
 
-Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
+* **Decentralized Document Notarization** – Verify and notarize documents securely on the blockchain.
+* **Smart Contract Powered** – Uses Solidity for immutable, tamper-proof contracts.
+* **Seamless Integration** – Powered by Thirdweb for simplified smart contract management.
+* **Wallet Connection** – Connect your wallet for decentralized authentication.
+* **Admin Controls** – Includes admin functionalities like signing, revoking, and certifying documents.
 
-## Installation
+### 🚀 Live Demo
 
-Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
+Check out the live project here: [Blockchain-Based Notary System](https://blockchain-based-notary-lb54jgxn5-call-me-sumans-projects.vercel.app/)
 
-```bash
-  npx thirdweb create app --next
-```
+### 🛠️ Tech Stack
 
-## Environment Variables
+* **Frontend:** Next.js (TypeScript)
+* **Smart Contracts:** Solidity
+* **Deployment:** Thirdweb, Vercel
+* **Network:** Sepolia Testnet
 
-To run this project, you will need to add the following environment variables to your .env file:
+### 📸 Screenshots
 
-`CLIENT_ID`
+#### Main Page
 
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
+![Main Page](./images/main%20page.jpg)
 
-## Run locally
+#### Notarize Document Page
 
-Install dependencies
+![Notarize Document](./images/notarize%20docs.png)
 
-```bash
-yarn
-```
+#### All Options View
 
-Start development server
+![All Options](./images/alloptions.gif)
 
-```bash
-yarn dev
-```
+### 📦 Installation
 
-Create a production build
-
-```bash
-yarn build
-```
-
-Preview the production build
+1. Clone the repository:
 
 ```bash
-yarn start
+https://github.com/your-username/blockchain-notary.git
 ```
 
-## Resources
+2. Install dependencies:
 
-- [Documentation](https://portal.thirdweb.com/typescript/v5)
-- [Templates](https://thirdweb.com/templates)
-- [YouTube](https://www.youtube.com/c/thirdweb)
-- [Blog](https://blog.thirdweb.com)
+```bash
+npm install
+```
 
-## Need help?
+3. Run the development server:
 
-For help or feedback, please [visit our support site](https://thirdweb.com/support)
+```bash
+npm run dev
+```
+
+### 🚀 Deployment
+
+Deployed on Vercel with smart contract on Sepolia testnet. You can fork this project and deploy your own version using Vercel.
+
+### 📄 License
+
+This project is licensed under the MIT License.
+
+### 🤝 Contributing
+
+Contributions are welcome! Feel free to open a PR or an issue.
+
+### 🌐 Connect
+
+For any queries or collaborations, reach out on LinkedIn or GitHub.
