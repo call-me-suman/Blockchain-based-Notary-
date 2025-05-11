@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
+    "@splinetool/runtime": "^1.9.80",
     "@thirdweb-dev/react": "^4.6.12",
     "@thirdweb-dev/storage": "^2.0.15",
     "next": "^15.2.3",
