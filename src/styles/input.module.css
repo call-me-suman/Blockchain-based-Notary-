@@ -1,0 +1,91 @@
+.btn {
+  background-color: #0799b5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 20px 25px;
+  /* margin: 20px 50px; */
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.mainbox {
+  display: flex;
+  gap: 154px;
+  flex-direction: row;
+}
+.form__input {
+  background-color: #000;
+  color: #ffffff;
+  border: 2px solid #0799b5;
+  border-radius: 4px;
+  padding: 20px 25px;
+  margin: 20px 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form__input:hover {
+  background-color: #034d5c;
+  color: white;
+}
+.form__input::placeholder {
+  color: rgba(255, 255, 255, 0.789);
+}
+
+.textt {
+  color: #0799b5;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  background-color: rgba(7, 153, 181, 0.1);
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.container {
+  background-color: #000;
+  color: white;
+  font-family: "Arial", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.title {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #0799b5;
+  padding-bottom: 15px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.roleSwitch {
+  margin-top: 30px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .buttonContainer {
+    flex-direction: column;
+  }
+}

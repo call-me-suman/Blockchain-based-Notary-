@@ -1,0 +1,98 @@
+.container {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  line-height: 1.42em;
+  font-size: small;
+  width: 100%;
+  overflow-x: auto; /* Enables horizontal scrolling if content overflows */
+  color: white;
+  background-color: black;
+}
+
+.container table {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap; /* Prevents text wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  table-layout: fixed;
+}
+
+.container colgroup col:nth-child(3),
+.container colgroup col:nth-child(4) {
+  width: 200px; /* Adjust width as needed */
+  max-width: 250px; /* Prevents excessive stretching */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container td,
+.container th {
+  padding: 8px;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #222;
+}
+
+/* Background-color of the odd rows */
+.container tr:nth-child(odd) {
+  background-color: #111;
+  color: white;
+}
+
+/* Background-color of the even rows */
+.container tr:nth-child(even) {
+  background-color: #222;
+  color: white;
+}
+
+.container th {
+  background-color: #0799b5;
+  color: white;
+  font-weight: bold;
+}
+
+.container tr:hover {
+  background-color: #333;
+  -webkit-box-shadow: 0 6px 6px -6px #0799b5;
+  -moz-box-shadow: 0 6px 6px -6px #0799b5;
+  box-shadow: 0 6px 6px -6px #0799b5;
+  transition: background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.container td:hover {
+  background-color: #056b80;
+  color: white;
+  /* font-weight: bold; */
+  box-shadow: #0799b5 -1px 1px, #0799b5 -2px 2px, #0799b5 -3px 3px,
+    #0799b5 -4px 4px, #0799b5 -5px 5px, #0799b5 -6px 6px;
+  transform: translate3d(4px, -4px, 0);
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+  transition: all 0.6s ease-in-out;
+}
+
+/* Additional styles for better look with dark theme */
+.container caption {
+  color: #0799b5;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.container thead {
+  border-bottom: 2px solid #0799b5;
+}
+
+.container tbody tr:last-child {
+  border-bottom: 2px solid #0799b5;
+}
+
+.container tfoot {
+  background-color: #111;
+  color: #0799b5;
+  font-weight: bold;
+}

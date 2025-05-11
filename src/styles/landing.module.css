@@ -1,0 +1,133 @@
+/* App.css or App.module.css */
+
+/* Define a local class to hold your variables */
+.app {
+  /* CSS Variables */
+  --dark-bg: #000000;
+
+  --orange-primary: #ff6831;
+  --text-white: #ffffff;
+  --text-light-gray: #a1a1aa;
+  --block-color: #000000;
+  --coin-color: #d9d9ff;
+
+  /* App styles */
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  background-color: var(--dark-bg);
+  color: var(--text-white);
+}
+
+/* Define a global styles file separately if needed */
+/* In global.css (not a module) */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* Rest of your styles using the local class */
+.landingpage {
+  width: 100%;
+  max-width: 1880px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+.herovisual {
+  display: flex;
+  z-index: 1000;
+  width: 650px;
+}
+#trailer {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 20px;
+
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 10000;
+
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 500ms ease;
+
+  display: grid;
+  place-items: center;
+}
+
+.getstartedbtn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+
+  border: none;
+}
+.getstartedbtn.dark {
+  background-color: #2a2a30;
+  color: var(--text-white);
+}
+.getstartedbtn {
+  background-color: var(--orange-primary);
+  color: var(--text-white);
+  font-weight: 600;
+  padding: 15px 25px;
+  border-radius: 8px;
+}
+/* Hero Section */
+.herosection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-left: 100px;
+  position: relative;
+}
+.herocontent {
+  flex: 1;
+  max-width: 80%;
+}
+.herotitle {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+.herosubtitle {
+  font-size: 18px;
+  color: var(--text-light-gray);
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.herocta {
+  display: flex;
+  gap: 15px;
+}
+.talkhumanbtn {
+  background: transparent;
+  color: var(--text-white);
+  border: 1px solid #2a2a30;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .herosection {
+    flex-direction: column;
+  }
+
+  .herocontent {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .herovisual {
+    height: 400px;
+  }
+
+  .herotitle {
+    font-size: 48px;
+  }
+}
