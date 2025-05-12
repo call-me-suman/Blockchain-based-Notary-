@@ -40,7 +40,7 @@ Check out the live project here: [Blockchain-Based Notary System](https://blockc
 1. Clone the repository:
 
 ```bash
-https://github.com/call-me-suman/Blockchain-based-Notary-.git
+git clone https://github.com/call-me-suman/Blockchain-based-Notary-.git
 ```
 
 2. Install dependencies:
@@ -67,6 +67,4 @@ This project is licensed under the MIT License.
 
 Contributions are welcome! Feel free to open a PR or an issue.
 
-### 🌐 Connect
 
-For any queries or collaborations, reach out on LinkedIn or GitHub.
