@@ -40,7 +40,7 @@ Check out the live project here: [Blockchain-Based Notary System](https://blockc
 1. Clone the repository:
 
 ```bash
-https://github.com/your-username/blockchain-notary.git
+https://github.com/call-me-suman/Blockchain-based-Notary-.git
 ```
 
 2. Install dependencies:
